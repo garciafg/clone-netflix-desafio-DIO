@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX - CLONE</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-responsive.css">
+    <!-- Owl Css -->
+    <link rel="stylesheet" href="styles/owl/owl.carousel.css">
+    <link rel="stylesheet" href="styles/owl/owl.theme.default.css">
+</head>
+<body>
+    
+
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+
+            <div class="botoes-header">
+                <select name="idioma" class="idioma">
+                    <option selected="" lang="pt" value="/br/" >Português</option>
+                    <option lang="en" value="/en/" >English</option>
+                </select>
+                <button href="#" class="botao-entrar" data-uia="header-login-link">Entrar</button>    
+            </div>
+
+        </div>         
+    </header>
+
+    <main>
+        <div class="filme-principal">
+
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Nada pode conter um político quando ele quer mudar seu país</p>
+
+                <div class="botoes-header">
+                    <button role="button" class="botao"><i class="fas fa-play"></i> ASSISTIR AGORA</button>
+                    <button role="button" class="botao"><i class="fas fa-info"></i> MAIS INFORMAÇÕES</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="./img/owl/1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="./img/owl/2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="./img/owl/3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="./img/owl/4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="./img/owl/5.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="./img/owl/6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="assine">
+            <div class="container">
+                <div class="assine-bloco01">
+                    <h1>Aproveite na TV.</h1>
+                    <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</p>
+                </div>
+                <div class="bloco-assin02">
+                    <img src="./img/tv.png" alt="Assine">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="https://kit.fontawesome.com/daecde6000.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="./js/owl.carousel.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js" crossorigin="anonymous"></script>
+</body>
+</html>
