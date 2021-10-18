@@ -3,7 +3,6 @@
 
 # Sobre o projeto
 
-https://fgdevon.tk/projetos/blog/
 
 Template criado no desafio do Bootcamp da DIO - Digital Inovation - Clone do Site da NetFlix
 
